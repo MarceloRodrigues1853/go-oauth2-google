@@ -53,4 +53,4 @@ Ao permitir o acesso, o Google retorna o fluxo para a nossa aplicação junto co
 ![Aplicação exibindo sucesso no login com os dados de perfil retornados](google/assets/img/sucesso-acesso-oauth-google.png)
 
 ---
-### Projeto criado para fins de estudo e desenvolvomento.
+### Projeto criado para fins de estudo e desenvolvimento.
