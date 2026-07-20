@@ -34,6 +34,10 @@ O processo de registro gera um **ID do cliente** e uma **Chave secreta do client
 
 ![Tela exibindo o Client ID e Client Secret gerados](google/assets/img/copiar_chaves_ou_baixar_json.png)
 
+Para evitar o vazamento de credenciais no repositório, o projeto utiliza a biblioteca `godotenv`. As chaves reais ficam armazenadas em um arquivo local `.env` (ignorado pelo Git), enquanto um arquivo `.env.example` é disponibilizado como modelo para novos desenvolvedores.
+
+![Exemplo de configuração segura das variáveis de ambiente no arquivo .env.example](google/assets/img/adicionar_credenciais_na_pasta_env.png)
+
 ---
 
 ### 4. A Experiência do Usuário (Consentimento)
